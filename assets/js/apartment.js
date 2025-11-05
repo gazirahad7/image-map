@@ -44,9 +44,12 @@
             border_radius: 0,
           },
           tooltip_style: {
-            border_radius: 0,
+            border_radius: 12,
             padding: 10,
-            background_color: "#ffffff",
+            background_color: "#E8FB61",
+            width: "265px",
+            height: "auto",
+            max_width: "265px",
           },
           tooltip_content: {
             squares_settings: {
@@ -57,22 +60,45 @@
                     elements: [
                       {
                         settings: {
+                          name: "Image",
+                          iconClass: "fa fa-header",
+                        },
+                        options: {
+                          image: {
+                            url: "https://primyte.webermelon.dev/wp-content/themes/primyte/assets/images/image-map-pro/office_map/A2B-lowres-107.jpg",
+                            alt: "Cover Image",
+                            width: "234px",
+                            height: "auto",
+                          },
+
+                          general: {
+                            css: {
+                              "background-color": "red",
+                              width: "10px",
+                              height: "auto",
+                            },
+                          },
+                        },
+                      },
+                      {
+                        settings: {
                           name: "Heading",
                           iconClass: "fa fa-header",
                         },
                         options: {
-                          heading: {
-                            text: "Unit 1",
+                          text: {
+                            text: "Office A2 B - 590 000 €",
                           },
                           font: {
                             font_family: "Arial",
-                            font_size: "24",
-                            font_weight: "700",
-                            line_height: "30",
-                            text_color: "#000000",
+                            font_size: "16",
+                            font_weight: "400",
+                            line_height: "22",
+                            text_color: "#000",
                           },
                         },
                       },
+
                       {
                         settings: {
                           name: "Paragraph",
@@ -80,14 +106,14 @@
                         },
                         options: {
                           text: {
-                            text: "Available",
+                            text: "139,85 m2",
                           },
                           font: {
-                            font_family: "Arial",
-                            font_size: "16",
-                            font_weight: "400",
-                            line_height: "22",
-                            text_color: "#4C9EAA",
+                            font_family: "Oswald",
+                            font_size: "18",
+                            font_weight: "300",
+                            line_height: "28.8",
+                            text_color: "#5C6668",
                           },
                         },
                       },
@@ -278,18 +304,21 @@
           y: 32.75,
           width: 38.05084745762712,
           height: 23.25,
+
           x_image_background: 0,
           y_image_background: 0,
+
           layerID: "layer-1-apartment",
           default_style: {
             background_color: "#4C9EAA",
-            background_opacity: 0.2,
-            border_radius: 0,
+            background_opacity: 0,
+            border_radius: 50,
+            icon_size: 3.093,
           },
           mouseover_style: {
             background_color: "#4C9EAA",
             background_opacity: 0.5,
-            border_radius: 0,
+            border_radius: 50,
           },
           tooltip_style: {
             border_radius: 0,
