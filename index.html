@@ -12,13 +12,39 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <style>
+      .imp-tooltips-container {
+        /* width: 265px !important; */
+      }
+
+      .imp-tooltip {
+        width: 265px !important;
+
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .imp-tooltip-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .imp-tooltip-description {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    </style>
   </head>
   <body>
     <section>
-      <div class="container d-flex flex-column align-items-center my-5">
-        <h1>Image Map Pro Test</h1>
+      <div class="container d-flex flex-column align-items-center my-5 py-5">
+        <h1 class="mb-4">Image Map Pro Test</h1>
 
-        <!-- Container for the image map -->
         <div id="image-map-pro-container"></div>
       </div>
     </section>

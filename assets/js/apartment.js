@@ -34,12 +34,14 @@
           y_image_background: 0,
           layerID: "layer-1-apartment",
           default_style: {
-            background_color: "#E8FB61",
+            // background_opacity: 0.2,
             background_opacity: 0.7,
-            border_radius: 0,
+            //border_radius: 12,
+            // background_color: "#d3d3d3",
+            background_color: "#E8FB61",
           },
           mouseover_style: {
-            background_color: "#4C9EAA",
+            background_color: "#E8FB61",
             background_opacity: 0.5,
             border_radius: 0,
           },
@@ -49,7 +51,6 @@
             background_color: "#E8FB61",
             width: "265px",
             height: "auto",
-            max_width: "265px",
           },
           tooltip_content: {
             squares_settings: {
@@ -61,7 +62,7 @@
                       {
                         settings: {
                           name: "Image",
-                          iconClass: "fa fa-header",
+                          iconClass: "fa fa-camera",
                         },
                         options: {
                           image: {
@@ -86,14 +87,14 @@
                           iconClass: "fa fa-header",
                         },
                         options: {
-                          text: {
+                          heading: {
                             text: "Office A2 B - 590 000 €",
                           },
                           font: {
                             font_family: "Arial",
-                            font_size: "16",
-                            font_weight: "400",
-                            line_height: "22",
+                            font_size: "24",
+                            font_weight: "800",
+                            line_height: "30",
                             text_color: "#000",
                           },
                         },
