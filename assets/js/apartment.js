@@ -11,12 +11,14 @@
         naturalHeight: 400,
       },
       image: {
-        url: "assets/js/Layer_1.svg",
+        //url: "assets/js/Layer_1.svg",
+        url: "assets/images/Layer_1.png",
       },
       layer: {
         id: "layer-1-apartment",
         title: "Apartment Layer 1",
-        image_url: "assets/js/Layer_1.svg",
+        //  image_url: "assets/js/Layer_1.svg",
+        image_url: "assets/images/Layer_1.png",
         image_width: 1180,
         image_height: 400,
       },
@@ -34,11 +36,11 @@
           y_image_background: 0,
           layerID: "layer-1-apartment",
           default_style: {
-            // background_opacity: 0.2,
-            background_opacity: 0.7,
+            background_opacity: 0,
+            // background_opacity: 0.7,
             //border_radius: 12,
             // background_color: "#d3d3d3",
-            background_color: "#E8FB61",
+            //  background_color: "#E8FB61",
           },
           mouseover_style: {
             background_color: "#E8FB61",
