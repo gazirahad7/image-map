@@ -12,13 +12,15 @@
       },
       image: {
         //url: "assets/js/Layer_1.svg",
-        url: "assets/images/Layer_1.png",
+        // url: "assets/images/Layer_1.png",
+        url: "assets/images/Section.png",
       },
       layer: {
         id: "layer-1-apartment",
         title: "Apartment Layer 1",
         //  image_url: "assets/js/Layer_1.svg",
-        image_url: "assets/images/Layer_1.png",
+        //image_url: "assets/images/Layer_1.png",
+        image_url: "assets/images/Section.png",
         image_width: 1180,
         image_height: 400,
       },
